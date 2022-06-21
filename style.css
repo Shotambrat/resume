@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bebas+Neue&family=Kanit:wght@100&family=Lobster&family=Nanum+Gothic:wght@700&family=Questria&family=Skranji&display=swap');
+/*font-family: 'Abril Fatface', cursive;
+font-family: 'Bebas Neue', cursive;
+font-family: 'Kanit', sans-serif;
+font-family: 'Lobster', cursive;
+font-family: 'Skranji', cursive;*/
+
+
+h5 {
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100wh;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    max-width: 800px;
+    border-radius: 20px;
+}
+
+header {
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    align-items: center;
+    height: 200px;
+    width: 100%;
+    box-shadow: 0px -36px 47px 4px rgba(0, 0, 0, .44) inset;
+}
+
+article {
+    font-family: 'Kanit', cursive;
+    width: 300px;
+    height: 100%;
+    background-color: rgb(230, 238, 238);
+    text-indent: 25px;
+    font-weight: 800;
+}
+
+header .bg-img{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.main-theme {
+    direction: rtl;
+    width: 280px;
+}
+
+.left-conteinerto-main-theme {
+    display:flex;
+    justify-content: center;
+    color: #fff;
+    width: 300px;
+}
+
+.photo {
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    border: 2px dashed red;
+    overflow: hidden;
+}
+
+.name-cont {
+    line-height: 2px;
+    width: 100px;
+    font-family: 'Abril Fatface', cursive;
+
+}
+
+.artic-cont {
+    margin: 10px 20px;
+    padding: 5px;
+}
+
+.portfolio-block {
+    padding: 5px 15px;
+    border: 1px ridge rgb(243, 160, 6);
+}
+
+.element-flag {
+    font-family: 'Scranji', cursive;
+    height: 35px;
+    width: 85px;
+    background-color: green;
+    text-align: center;
+    overflow-x: visible;
+} 
+
+.accessories {
+    width: 0;
+    height: 0;
+    border: 17.5px solid green;
+    border-right-color: transparent;
+}
+
+.flag-icon {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 5px;
+}
+
+footer {
+    background-color: rgb(230, 238, 238);
+    height: 1280px;
+    width: 500px;
+    padding: 20px 50px;
+}
+
+section {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.ssylka {
+    cursor: pointer;
+    text-decoration-line: none;
+    color: #fff;
+}
+
+.details-block {
+    background-color: rgb(167, 161, 153);
+    border-radius: 15px;
+    text-indent: 15px;
+    padding: 10px 19px;
+    font-family: 'Questrial', sans-serif;
+    font-weight: 530;
+}
+
+.my-photo {
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}

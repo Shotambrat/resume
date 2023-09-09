@@ -156,3 +156,10 @@ section {
     object-fit: cover;
     overflow: hidden;
 }
+
+@media only screen and (max-width: 600px) {
+    body {
+        height: 800px;
+        transform: scale(0.4);
+    }
+}
